@@ -31,13 +31,11 @@
           <a href="https://app.hackemos.xyz" class="grad-link">here</a>
         </h1>
         <script>
-    let query = new URLSearchParams(window.location.search);
     let app = 'https://app.hackemos.xyz';
-
-    if (query.get('mirror') !== null) {
+    if (window.location.hash === '#mirror') {
         app = 'https://hackemos-app.fly.dev/';
     }
-    document.getElementById('redirectLink').href = app;
+    document.querySelector('.grad-link').href = app;
     window.location.href = app;
           </script>
 </body>

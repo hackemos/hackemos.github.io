@@ -7,7 +7,7 @@ const step2Alt = document.getElementById('step2alt');
 const copy = document.getElementById("copyCode");
 
 document.addEventListener('DOMContentLoaded', async function () {
-    const response = await fetch("../src/loader.js");
+    const response = await fetch("loader.js");
 window.code = await response.text();
 document.getElementById('ctaButton').href = code;
 
