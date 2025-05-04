@@ -1,0 +1,15 @@
+// version: v4.0
+Assignments:Assignments Completer:Automatically completes assignments for you with a set time and accuracy.
+GradedPractice:Graded Practice Completer:Automatically completes Graded Practices for you with a set time and accuracy.
+Quizzes/Grammar:Quiz Completer:Automatically completes Quiz for you with a set time and accuracy.
+Assignments:Show Answers:Reveals correct answer for the current question in vocab assignments.
+GradedPractice:Show Answers:Reveals correct answer for the current question in vocab graded practices.
+Assignments:Change Data:Modify assignment data without submitting it.
+Quizzes/Grammar:Allow Pasting:Allows you to paste answers from other sources into your test.
+Quizzes/Grammar:Tab Switch Bypass:Prevents detection when switching tabs during quizzes.
+Quizzes/Grammar:Show Answers:Reveals answers for every question in any quiz.#New
+Interface:Theme Changer: Allows you to switch through many different themes on the menu.
+Interface:Show Supported: Only buttons that support your current lesson type are shown, preventing confusion.
+Interface:Hide Menu: You can use the panic button: "ESC" to toggle the menu.
+Misc:Game Complete: Any Conjuguemos game you can think of can be completed. This hack allows you to set the time and accuracy.#Beta
+Misc:Crossword Show: Show answers to any crossword puzzle.#New

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>App Redirect - Hackemos </title>
+        <meta name="description" content="This page redirects you to the most up to date app link.">
+        <link rel="stylesheet" href="../src/main.css">
+        <link rel="stylesheet" href="../src/index.css">
+        <link rel="icon" href="/assets/favicon/favicon.ico" sizes="any">
+        <meta name="apple-mobile-web-app-title" content="Hackemos">
+        <meta property="og:title" content="App Redirect - Hackemos">
+        <meta property="og:description" content="This page redirects you to the most up to date app link.">
+        <meta property="og:image" content="/assets/img/app.png">
+        <meta property="og:image:secure_url" content="/assets/img/app.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:url" content="https://hackemos.xyz">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Hackemos">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="App Redirect - Hackemos">
+        <meta name="twitter:description" content="This page redirects you to the most up to date app link.">
+        <meta name="twitter:image" content="/assets/img/app.png">
+        <meta name="twitter:image:alt" content="Hackemos Menu">
+        <meta name="twitter:url" content="https://hackemos.xyz">
+        <meta name="robots" content="index, follow">
+    </head>
+<body style="margin: 0; padding: 20px; display: flex; justify-content: center; align-items: center; height: 100vh; box-sizing: border-box;">
+
+        <h1 style="padding: 20px;">Redirecting... If you aren't automatically redirected click 
+          <a href="https://app.hackemos.xyz" class="grad-link">here</a>
+        </h1>
+        <script>
+    let query = new URLSearchParams(window.location.search);
+    let app = 'https://app.hackemos.xyz';
+
+    if (query.get('mirror') !== null) {
+        app = 'https://hackemos-app.fly.dev/';
+    }
+    document.getElementById('redirectLink').href = app;
+    window.location.href = app;
+          </script>
+</body>
+</html>
