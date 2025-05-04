@@ -104,7 +104,15 @@
             </div>
     
             <div class="instruction-tip">
-                Still Not Working? <a class="grad-link togMethod">Go back to method 1</a> or <a href="javascript:void(0);" class="grad-link" onclick="window.code.replace('app.hackemos.xyz', 'https://hackemos-app.fly.dev/'); document.getElementById('ctaButton').href = window.code; document.getElementById('step2alt').style.display = 'block';">Use mirror site</a> instead.
+                Still Not Working? 
+                <a class="grad-link togMethod">Go back to method 1</a> or 
+                <a href="#" class="grad-link" onclick="
+                    window.code = window.code.replace('app.hackemos.xyz', 'hackemos-app.fly.dev');
+                    document.getElementById('ctaButton').href = window.code;
+                    document.getElementById('step2alt').style.display = 'block';
+                    return false;
+                ">Use mirror site</a> instead.
+                
             </div>
         </div>
     
@@ -181,7 +189,6 @@
         </div>
         <p class="copyright">&copy; 2025 Hackemos. Not affiliated with Yegros Educational LLC or CONJUGUEMOS.</p>
     </footer>
-    
     <script src="../src/page.js"></script>
     <script src="../src/instructions.js"></script>
 </body>
