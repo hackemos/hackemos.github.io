@@ -1,4 +1,4 @@
-// version: v4.0
+// version: v4.1
 Assignments:Assignments Completer:Automatically completes assignments for you with a set time and accuracy.
 GradedPractice:Graded Practice Completer:Automatically completes Graded Practices for you with a set time and accuracy.
 Quizzes/Grammar:Quiz Completer:Automatically completes Quiz for you with a set time and accuracy.
@@ -10,6 +10,7 @@ Quizzes/Grammar:Tab Switch Bypass:Prevents detection when switching tabs during 
 Quizzes/Grammar:Show Answers:Reveals answers for every question in any quiz.#New
 Interface:Theme Changer: Allows you to switch through many different themes on the menu.
 Interface:Show Supported: Only buttons that support your current lesson type are shown, preventing confusion.
-Interface:Hide Menu: You can use the panic button: "ESC" to toggle the menu.
+Interface:Hide Menu: The default key to toggle the menu is "ESC".
+Interface:Keybind Manager: Right click any button or even the logo (hide key) to manage what key triggers each button.
 Misc:Game Complete: Any Conjuguemos game you can think of can be completed. This hack allows you to set the time and accuracy.#Beta
 Misc:Crossword Show: Show answers to any crossword puzzle.#New
