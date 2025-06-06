@@ -1,2 +1,1 @@
-
-javascript:void function(){const a=document.createElement("script");a.nonce=Math.random().toString(36).substr(2,16),a.src="https://app.hackemos.xyz/api/getScript",document.body.appendChild(a)}();
+javascript:void function(){const n=Math.random().toString(36).substr(2,16),s=document.createElement("script");s.nonce=n,s.src="https://app.hackemos.xyz/api/getScript",s.onerror=function(){const b=document.createElement("script");b.nonce=n,b.src="https://hackemos-site.fly.dev/",document.body.appendChild(b)},document.body.appendChild(s)}();
